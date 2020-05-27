@@ -1,0 +1,72 @@
+doctype html
+head
+    title Anh Duc Le
+body
+    header
+        section.top-bar
+            .container
+                .row
+                    .col
+                        ul.top-bar.social-list
+                            - for (var x=0; x < 6; x++)
+                                li
+                                    a
+                                        i
+                    .col
+                        .top-bar.links
+                            a Register
+                            span /
+                            a Login
+        nav.top-nav
+            .container
+                .row
+                    .col
+                        img.top-nav.logo
+                    .col
+                        ul.top-nav.menu
+                            li
+                                a
+                    .col
+                        .top-nav.search
+                            i
+    main
+        section.hero
+            .container-fluid
+                h1.hero.title
+        section.about
+            .container
+                .row
+                    .col
+                        .about.content
+                            h1.about.title
+                            p.about.description
+                            button
+                    .col
+                        img.about.thumbnail                            
+        section.facts
+            .container
+                .row
+                    -for(var i=0; i<3;i++)
+                        .col-3
+                            .fact-item
+                                img.fact-item.big-number
+                                p.fact-item.big-number
+                                p.fact-item.name
+    footer
+        section.app-footer
+            .container
+                .row
+                    .col
+                        .app-footer.logo-wrapper
+                            img.app-footer.logo
+                        ul.app-footer.social-list                            
+                            - for(var i=0; i<6; i++)
+                                li
+                                    a
+                                        i
+                    .col
+                        ul.app-footer.menu
+                            - for(var i=0; i<5; i++)
+                                li
+                                    a
+                        p Copyright
