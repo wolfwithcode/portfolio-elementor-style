@@ -1,0 +1,138 @@
+doctype html
+html
+    head
+        title Anh Duc Le
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+        //- link(rel='stylesheet', href='./css/main.css')
+        link(rel='stylesheet', href='./css/header.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js')
+    body
+        header
+            section.banner
+                .container
+                    .row
+                        .col
+                            .banner__image
+                                .banner__content
+                                    h1.banner__title WEB & GRAPHIC DESIGNER
+                                    //- button.learn__more.btn.btn-primary
+                                    button.btn.btn-primary(type='button') LEARN MORE
+                                    //- img.img-responsive(src="img/storm.jpg")
+
+            nav.top-nav
+                .container
+                    .row
+                        .col-md-2
+                            img.top-nav__logo(src="img/mylogo.png")
+                        .col-md-offset-1.col-md-8
+                            ul.top-nav__menu.nav
+                                li
+                                    a(href='#') HOME
+                                li
+                                    a(href='#') ABOUT ME
+                                li
+                                    a(href='#') SKILLS
+                                li
+                                    a(href='#') RESUME
+                                li
+                                    a(href='#') TESTIMONIALS
+                                li
+                                    a(href='#') PORFOLIO
+                                li
+                                    a(href='#') CONTACT
+        main
+            section.summary
+                .container
+                    .row
+                        //- - for(var i=0; i<3; i++)
+                        .col-md-4   
+                            .summary__content
+                                h1.summary__content-title VALUES
+                                p.summary__content-description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit am
+                        .col-md-4   
+                            .summary__content
+                                h1.summary__content-title GOALS
+                                p.summary__content-description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit am
+                        .col-md-4   
+                            .summary__content
+                                h1.summary__content-title HOBBIES
+                                p.summary__content-description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit am
+
+            section.about-me
+                .container
+                    .row
+                        .col
+                            img.about-me__avatar(src="img/nobita.png")
+                        .col
+                            .container
+                                .row
+                                    .about-me__content
+                                        h2.about-me__title ABOUT ME
+                                        p.about-me__description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit am Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit am Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit am 
+                                                        
+                                //- - for(var i=0; i<2;i++)
+                                .row       
+                                    //- - for(var j=0; j<2;j++)             
+                                    .col                                                                        
+                                        .about-me__about-detail
+                                            .row
+                                                .col-md-2
+                                                    img.about-me__icon(src="img/icon1.png")
+                                                .col-md-8
+                                                    h4.about-me__about-detail-title WEB DESIGN
+                                                    p.summary__about-detail-description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    .col                                                                        
+                                        .about-me__about-detail
+                                            .row
+                                                .col-md-2
+                                                    img.about-me__icon(src="img/icon2.png")
+                                                .col-md-8
+                                                    h4.about-me__about-detail-title GRAPHIC DESIGN
+                                                    p.summary__about-detail-description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.  
+                                .row       
+                                    .col                                                                        
+                                        .about-me__about-detail
+                                            .row
+                                                .col-md-2
+                                                    img.about-me__icon(src="img/icon3.png")
+                                                .col-md-8
+                                                    h4.about-me__about-detail-title ONLINE MARKETING
+                                                    p.summary__about-detail-description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    .col                                                                        
+                                        .about-me__about-detail
+                                            .row
+                                                .col-md-2
+                                                    img.about-me__icon(src="img/icon4.png")
+                                                .col-md-8
+                                                    h4.about-me__about-detail-title SEO
+                                                    p.summary__about-detail-description Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.                                                                                                                                                                            
+                                
+            section.my-skills
+                .container
+                    .row
+                        .col
+                            .my-skills__content
+                                h1.my-skills__title
+                                p.my-skills__description
+                                button
+                        .col
+                            .container          
+                                -for(var i=0; i<4;i++)              
+                                    .row
+                                        .col                                    
+                                            .my-skills__skill-content
+                                                h1.my-skills__title
+                                                p.my-skills__description
+                                
+            //- section.resume
+            //- section.education
+            //- section.work-experience
+            //- section.porfolio  
+            //- section.contact      
+        footer
+            section.app-footer
+

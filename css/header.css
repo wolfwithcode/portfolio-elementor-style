@@ -1,0 +1,39 @@
+.banner__image {
+    background:  url(../img/storm.jpg) center center fixed;
+    min-height: 50vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__content {
+    font-size: 1em;
+    padding: 1.5em;
+    border-radius: 10px;
+    color: black;
+    /* display: flex; */
+    text-align: center;
+}
+
+.top-nav__logo {
+    max-height: 5vh;
+}
+
+.top-nav__menu {
+    /* flex-direction: row; */
+    padding: 10px;
+}
+
+.top-nav__menu > li {
+    list-style: none;
+    padding: 10px;
+}
+
+.about-me__avatar{
+    max-width: 50vh;
+}
+
+.about-me__icon{
+    max-width: 5vh;
+}
