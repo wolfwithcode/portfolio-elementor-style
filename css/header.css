@@ -31,9 +31,27 @@
 }
 
 .about-me__avatar{
-    max-width: 50vh;
+    /* max-width: 50vh; */
 }
 
 .about-me__icon{
     max-width: 5vh;
+}
+
+.progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+     appearance: none;
+    
+    width: 250px;
+    height: 20px;
+}
+
+.progress-bar{
+    background-color: green;
+}
+
+.my-skills__title{
+    margin-top: 10px;
+    margin-bottom: 0;
 }
